@@ -57,10 +57,8 @@
     fill: #fff;
   }
 
-  .mobile-menu-nav-list {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+  .mobile-menu-nav-item:not(:last-child) {
+    margin-bottom: 40px;
   }
 
   .mobile-menu-nav-link {
@@ -83,10 +81,8 @@
     margin-top: auto;
   }
 
-  .mobile-contacts-list {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+  .mobile-contacts-item:not(:last-child) {
+    margin-bottom: 24px;
   }
 
   .mobile-contacts-link {
@@ -125,7 +121,7 @@
   }
 
   .mobile-social-list-icon {
-    fill: #f4f4fd;
+    fill: var(--cloud);
   }
 
   .open-mobile-menu-btn {

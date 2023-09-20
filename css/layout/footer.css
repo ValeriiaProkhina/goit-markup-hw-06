@@ -1,0 +1,173 @@
+/* =========== MOBILE =========== */
+
+.footer {
+  padding: 96px 0;
+  background-color: var(--navy-blue);
+}
+
+.logo-footer {
+  display: block;
+  margin-bottom: 17px;
+  text-align: center;
+}
+
+.part-logo-footer {
+  color: var(--cloud);
+  line-height: 1.17;
+}
+
+.text-footer {
+  width: 264px;
+  color: var(--cloud);
+}
+
+.text-footer-socmedia {
+  margin-bottom: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: #fff;
+  text-align: center;
+}
+
+.social-list-footer {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.link-footer {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link-footer:hover,
+.link-footer:focus {
+  background-color: #31d0aa;
+}
+
+.footer-button {
+  cursor: pointer;
+  min-width: 165px;
+  max-height: 40px;
+  font-style: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  padding: 8px 24px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  background: var(--iris);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.subscribe-icon {
+  margin-left: 16px;
+}
+
+.footer-text-subscribe {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.footer-input {
+  width: 288px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  background-color: transparent;
+  outline: transparent;
+  padding: 8px 16px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.48px;
+  margin-bottom: 16px;
+}
+
+.footer-input::placeholder {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.48px;
+}
+
+@media screen and (max-width: 1157px) {
+  .footer-logo-box {
+    margin-bottom: 72px;
+  }
+
+  .footer-social-list-box {
+    margin-bottom: 72px;
+  }
+
+  .footer-form {
+    text-align: center;
+  }
+}
+
+/* =========== TABLET =========== */
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    padding-left: 92px;
+  }
+
+  .footer-box {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    align-items: baseline;
+  }
+
+  .logo-footer {
+    display: inline-block;
+  }
+
+  .text-footer-socmedia {
+    text-align: start;
+  }
+
+  .footer-text-subscribe {
+    text-align: start;
+  }
+
+  .footer-input {
+    width: 264px;
+    margin-right: 24px;
+  }
+}
+
+/* =========== DESKTOP =========== */
+
+@media screen and (min-width: 1158px) {
+  .footer {
+    padding: 100px 0;
+  }
+
+  .footer-box {
+    flex-wrap: nowrap;
+    gap: 0;
+  }
+
+  .footer-logo-box {
+    margin-right: 120px;
+  }
+
+  .footer-social-list-box {
+    margin-right: 80px;
+  }
+
+  .footer-form {
+    display: flex;
+  }
+}

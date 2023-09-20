@@ -1,3 +1,5 @@
+/* =========== MOBILE =========== */
+
 @media screen and (max-width: 767px) {
   .navigation-menu-list {
     display: none;
@@ -7,6 +9,7 @@
     display: none;
   }
 }
+
 .page-header {
   padding-top: 16px;
   padding-bottom: 16px;
@@ -36,6 +39,8 @@
 .part-logo-header {
   color: var(--navy-blue);
 }
+
+/* =========== TABLET =========== */
 
 @media screen and (min-width: 768px) {
   .page-header {
@@ -108,21 +113,19 @@
   }
 
   .contacts {
-    display: flex;
     align-items: center;
     font-style: normal;
     margin-left: auto;
   }
 
   .contacts-list {
-    display: block;
     display: flex;
     flex-direction: column;
     gap: 12px;
     line-height: 0;
   }
 
-  .contacts-item {
+  .contacts-item-link {
     color: var(--slate);
     font-size: 12px;
     line-height: 1.16;
@@ -135,6 +138,8 @@
     color: var(--ocean);
   }
 }
+
+/* =========== DESKTOP =========== */
 
 @media screen and (min-width: 1158px) {
   .page-header {
@@ -151,7 +156,7 @@
     gap: 40px;
   }
 
-  .contacts-item {
+  .contacts-item-link {
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;

@@ -1,0 +1,95 @@
+/* =========== MOBILE =========== */
+
+.section-our-team {
+  background: var(--cloud);
+}
+
+.our-team-list {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+
+.card-content-container {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.list-item-team {
+  background: #fff;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+  max-width: 264px;
+}
+
+.list-subheading-team {
+  margin-bottom: 8px;
+  color: var(--navy-blue);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.our-team-text {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.social-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.link-social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--iris);
+  width: 40px;
+  height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link-social-list:hover,
+.link-social-list:focus {
+  background-color: var(--ocean);
+}
+
+.social-list-icon {
+  fill: var(--cloud);
+}
+
+/* =========== TABLET =========== */
+
+@media screen and (min-width: 768px) {
+  .our-team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 64px;
+    column-gap: 24px;
+  }
+
+  .list-item-team {
+    width: ((100% - 24px) / 2);
+  }
+}
+
+/* =========== DESKTOP =========== */
+
+@media screen and (min-width: 1158px) {
+  .our-team-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .list-item-team {
+    width: ((100% - 72px)) / 4;
+  }
+}

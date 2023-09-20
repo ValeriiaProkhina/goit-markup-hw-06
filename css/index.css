@@ -12,6 +12,10 @@
 /* ====== LAYOUT ====== */
 
 @import './layout/header.css';
-@import './layout/backdrop.css';
 @import './layout/mobile-menu.css';
 @import './layout/section-solutions.css';
+@import './layout/hero.css';
+@import './layout/modal.css';
+@import './layout/section-our-team.css';
+@import './layout/section-our-portfolio.css';
+@import './layout/footer.css';

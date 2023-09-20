@@ -1,6 +1,10 @@
-.icon-solutions-container {
-  display: none;
+@media screen and (max-width: 1157px) {
+  .icon-solutions-container {
+    display: none;
+  }
 }
+
+/* =========== MOBILE =========== */
 
 .title-solutions {
   line-height: 1.2;
@@ -12,7 +16,7 @@
   gap: 72px;
 }
 
-.list-subheading {
+.list-subheading-solutions {
   text-align: center;
   margin-bottom: 8px;
   color: var(--navy-blue);
@@ -22,29 +26,33 @@
   letter-spacing: 0.02em;
 }
 
-.list-item-text {
+.list-item-text-solutions {
   font-size: 16px;
   line-height: 1.5;
-  font-weight: 500px;
+  font-weight: 500;
 }
+
+/* =========== TABLET =========== */
 
 @media screen and (min-width: 768px) {
   .solutions-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    row-gap: 72px;
     column-gap: 24px;
+    row-gap: 72px;
   }
 
   .list-item {
-    max-width: 356px;
+    width: calc((100% - 24px) / 2);
   }
 
-  .list-subheading {
+  .list-subheading-solutions {
     text-align: start;
   }
 }
+
+/* =========== DESKTOP =========== */
 
 @media screen and (min-width: 1158px) {
   .icon-solutions-container {
@@ -62,17 +70,18 @@
     gap: 24px;
   }
 
-  .list-subheading {
+  .list-subheading-solutions {
     font-size: 20px;
-    font-weight: 500px;
+    font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
   }
 
   .list-item {
     width: calc((100% - 72px) / 4);
   }
 
-  .list-item-text {
-    font-weight: 400px;
+  .list-item-text-solutions {
+    font-weight: 400;
   }
 }

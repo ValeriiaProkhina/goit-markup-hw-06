@@ -75,6 +75,10 @@
     color: var(--ocean);
   }
 
+  .link-studio {
+    color: var(--ocean);
+  }
+
   .mobile-menu-contacts {
     align-items: center;
     font-style: normal;

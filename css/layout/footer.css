@@ -119,7 +119,6 @@
   .footer {
     padding-top: 96px;
     padding-bottom: 96px;
-    padding-left: 92px;
   }
 
   .footer-box {
@@ -127,6 +126,7 @@
     flex-wrap: wrap;
     column-gap: 24px;
     align-items: baseline;
+    max-width: 550px;
   }
 
   .logo-footer {
@@ -157,6 +157,7 @@
   .footer-box {
     flex-wrap: nowrap;
     gap: 0;
+    max-width: 1158px;
   }
 
   .footer-logo-box {
